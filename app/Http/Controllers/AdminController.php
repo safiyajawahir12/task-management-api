@@ -7,6 +7,12 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
+
+
+//  * Admin can view all tasks, assign tasks to users,
+//  * edit any task, and delete any task.
+//  * Supports filtering by status, priority, and due date.
+
 class AdminController extends Controller
 {
     // Admin Dashboard — show all tasks from all users
