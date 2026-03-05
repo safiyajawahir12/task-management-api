@@ -104,7 +104,7 @@ class AuthController extends Controller
             ->with('success', 'Welcome! Your account has been created.');
     }
 
-    // ── Private helpers ────────────────────────────────────────
+    
 
     /**
      * Redirect to the correct dashboard based on the user's role.
