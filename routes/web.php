@@ -6,6 +6,10 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\TaskController;
 use Illuminate\Support\Facades\Route;
 
+
+// Guest routes: login, register
+// | Admin routes: dashboard, task CRUD (role:admin middleware)
+// | User routes: dashboard, mark complete, edit (role:user middleware)
 // ── Root ───────────────────────────────────────────────────────────────────
 Route::get('/', fn() => redirect()->route('login'));
 
