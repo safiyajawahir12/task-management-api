@@ -53,3 +53,4 @@ class Task extends Model
         if ($date) $query->whereDate('due_date', '<=', $date);
     }
 }
+
