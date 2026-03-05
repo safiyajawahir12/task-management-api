@@ -6,6 +6,12 @@ use App\Models\Task;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
+
+
+//  * User can view only their assigned tasks.
+//  * User can mark tasks as complete and edit their own tasks.
+//  * Supports filtering by status and priority with pagination.
+
 class UserController extends Controller
 {
     // User Dashboard — only tasks assigned to this user
