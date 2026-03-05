@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
+
+//  Handles task data, relationships, and query scopes.
+//  Uses soft deletes so tasks can be restored after deletion.
 class Task extends Model
 {
     use HasFactory, SoftDeletes;
