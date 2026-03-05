@@ -8,7 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-//   Supports two roles: admin and user.
+//   Supports two roles: admin and user..
 //   Admin can assign tasks. User can only see assigned tasks.
 class User extends Authenticatable
 {
