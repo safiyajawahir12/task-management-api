@@ -6,6 +6,11 @@ use App\Models\Task;
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 
+//  * TaskController
+//  * REST API for task management.
+//  * Supports full CRUD, soft deletes, restore,
+//  * filtering by status/priority/due date, and pagination.
+
 class TaskController extends Controller
 {
     // ══════════════════════════════════════════════
