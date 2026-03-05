@@ -14,8 +14,8 @@ class RoleMiddleware
      *
      * Usage in routes:
      *   Route::middleware('role:admin')  — only admins can pass
-     *   Route::middleware('role:user')   — only regular users can pass
-     
+     *   Route::middleware('role:user')  — only regular users can pass
+
      * If the wrong role tries to access, they're redirected to their
      * own dashboard instead of seeing a 403 error (better UX).
      */
