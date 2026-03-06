@@ -42,11 +42,11 @@
 </div>
 
 {{-- Flash messages --}}
-@if(session('success'))
+{{-- @if(session('success'))
   <div style="background:#dcfce7;color:#166534;border:1px solid #86efac;padding:0.75rem 1rem;border-radius:8px;margin-bottom:1rem;">
     ✅ {{ session('success') }}
   </div>
-@endif
+@endif --}}
 
 {{-- Stats --}}
 <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; margin-bottom:1.5rem;">
